@@ -1,0 +1,71 @@
+.main {
+  padding: 0 15%;
+  box-sizing: border-box;
+  width: 100%;
+  @media screen and (max-width: "1024px") {
+    padding: 0 10%;
+  }
+
+  @media screen and (max-width: "700px") {
+    padding: 0 5%;
+  }
+}
+
+.content-center {
+  display: flex;
+  align-items: center;
+}
+
+.display {
+  &-grid {
+    display: grid !important;
+  }
+  &-flex {
+    display: flex !important;
+  }
+  &-block {
+    display: block !important;
+  }
+  &-inline {
+    display: inline !important;
+  }
+  &-inline-block {
+    display: inline-block !important;
+  }
+}
+
+.justify {
+  &-between {
+    justify-content: space-between;
+  }
+  &-center {
+    justify-content: center;
+  }
+  &-end {
+    justify-self: flex-end;
+  }
+}
+
+.bg {
+  &-primary {
+    background-color: $primary !important;
+  }
+  &-primary-light {
+    background-color: rgba($primary, 0.16) !important;
+  }
+  &-secondary {
+    background-color: $secondary !important;
+  }
+  &-transparent {
+    background-color: transparent !important;
+  }
+  &-white {
+    background-color: white !important;
+  }
+}
+
+.link-underline {
+  &:hover {
+    text-decoration: underline;
+  }
+}

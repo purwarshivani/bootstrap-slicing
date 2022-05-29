@@ -1,0 +1,30 @@
+.banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #00000048;
+  background-blend-mode: overlay;
+  font-family: $typeface3 !important;
+
+  &-teambanner {
+    background-image: url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVldGluZyUyMHRlYW18ZW58MHx8MHx8&w=1000&q=80");
+    height: 400px;
+  }
+
+  &-herobanner {
+    background-image: url("https://42796r1ctbz645bo223zkcdl-wpengine.netdna-ssl.com/wp-content/uploads/2020/03/sean-pollock-PhYq704ffdA-unsplash-2-1281x612.jpg");
+    height: 610px;
+    background-color: #00000060;
+    background-blend-mode: overlay;
+  }
+
+  &-icon{
+  
+    position: absolute;
+    padding-top: 50;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+  }
+}
